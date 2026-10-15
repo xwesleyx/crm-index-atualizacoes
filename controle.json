@@ -1,10 +1,8 @@
 {
   "conteudo": {
-    "geradoEm": "2026-10-15T16:17:40.985Z",
+    "geradoEm": "2026-10-15T16:22:02.795Z",
     "contato": "(27) 99501-3060",
-    "ativos": [
-      "89a7228a25dc40e3aed3cb13668b03921648ee091e5cf1f892dae3392f4de65f"
-    ],
+    "ativos": [],
     "versao": {
       "numero": "1.69",
       "titulo": "Correção: o CRM não abria depois de instalar",
@@ -20,5 +18,5 @@
       "publicadoEm": "2026-10-15T16:17:40.983Z"
     }
   },
-  "assinatura": "Dl/9Rq9WO00+8VW8idFOgZyAWn0xSfNcX7mhZkyI9SPrTfqPPb43zFJ3Yo7X/VDy7FkqrgiwbCV9wz0FtYvlAg=="
+  "assinatura": "mIRf9lyHcxAS2XGtatMVS5uBSIfEfkwYrHu22N71bYvKMhojzcERAe8JJB1q5G4Cwts+/DqUaDrGeVoZc/H9CQ=="
 }
