@@ -1,22 +1,24 @@
 {
   "conteudo": {
-    "geradoEm": "2026-10-15T16:00:14.193Z",
+    "geradoEm": "2026-10-15T16:17:40.985Z",
     "contato": "(27) 99501-3060",
     "ativos": [
       "89a7228a25dc40e3aed3cb13668b03921648ee091e5cf1f892dae3392f4de65f"
     ],
     "versao": {
-      "numero": "1.68",
-      "titulo": "Nome CRM INDEX em todo o sistema",
+      "numero": "1.69",
+      "titulo": "Correção: o CRM não abria depois de instalar",
       "novidades": [
-        "O instalador, a pasta de instalação (C:\\Program Files\\CRM INDEX), os atalhos, a Central de Ajuda e o Histórico de versões passam a usar o nome CRM INDEX."
+        "Corrigido: nas versões 1.67 e 1.68 instaladas pelo instalador, o CRM mostrava \"Internal Server Error\" e não abria — faltavam arquivos do sistema dentro do instalador.",
+        "O instalador agora só é gerado depois de um teste automático que liga o CRM empacotado e confere a tela de login.",
+        "O atualizador automático passou a consultar as versões novas sozinho, mesmo se o CRM não estiver abrindo — assim uma versão com problema se corrige pela próxima atualização."
       ],
-      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.68/CRMINDEX-Setup-1.68.exe",
-      "sha256": "962a06f00407306d017afcafcaddbda872dcb2a533630f89e23b4d5c1b3862be",
-      "tamanho": 79143315,
+      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.69/CRMINDEX-Setup-1.69.exe",
+      "sha256": "f792c7bb9809c1b5cf0aeed1e9ef183a1670ad5243bfc14b230eef24bb5343d7",
+      "tamanho": 79765160,
       "forcar": false,
-      "publicadoEm": "2026-10-15T16:00:14.187Z"
+      "publicadoEm": "2026-10-15T16:17:40.983Z"
     }
   },
-  "assinatura": "LpX5eIxhKDh5qA6WjJzJhk9VVPAL/8xW6oaQBrw3DV4s/Ika/TEminXi5KEi549374Wj4REJsyXMyVQQO9TACA=="
+  "assinatura": "Dl/9Rq9WO00+8VW8idFOgZyAWn0xSfNcX7mhZkyI9SPrTfqPPb43zFJ3Yo7X/VDy7FkqrgiwbCV9wz0FtYvlAg=="
 }
