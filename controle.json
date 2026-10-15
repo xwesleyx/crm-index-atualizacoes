@@ -1,22 +1,24 @@
 {
   "conteudo": {
-    "geradoEm": "2026-10-15T16:22:02.795Z",
+    "geradoEm": "2026-10-15T17:18:18.859Z",
     "contato": "(27) 99501-3060",
     "ativos": [],
     "versao": {
-      "numero": "1.69",
-      "titulo": "Correção: o CRM não abria depois de instalar",
+      "numero": "1.70",
+      "titulo": "Permissões por tela de Configurações",
       "novidades": [
-        "Corrigido: nas versões 1.67 e 1.68 instaladas pelo instalador, o CRM mostrava \"Internal Server Error\" e não abria — faltavam arquivos do sistema dentro do instalador.",
-        "O instalador agora só é gerado depois de um teste automático que liga o CRM empacotado e confere a tela de login.",
-        "O atualizador automático passou a consultar as versões novas sozinho, mesmo se o CRM não estiver abrindo — assim uma versão com problema se corrige pela próxima atualização."
+        "Cada tela de Configurações agora é uma permissão própria em Configurações > Usuários > Permissões: Usuários, Permissões, Regiões, Checklist de Instalação, Kanbans, Respostas rápidas, Mensagens automáticas, Integrações, Backup e Limpeza.",
+        "O padrão continua o mesmo (só Administradores), mas agora dá para liberar uma tela específica para qualquer pessoa — por exemplo, deixar um atendente cuidar das Respostas rápidas — ou tirar uma tela de um Administrador.",
+        "O menu e as abas mostram só as telas liberadas para a pessoa; quem não tem nenhuma não vê o menu Configurações.",
+        "Ninguém pode tirar de si mesmo o acesso à tela de Permissões.",
+        "O sistema passou a conferir licença e versões novas a cada 30 minutos (antes, a cada 1 hora)."
       ],
-      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.69/CRMINDEX-Setup-1.69.exe",
-      "sha256": "f792c7bb9809c1b5cf0aeed1e9ef183a1670ad5243bfc14b230eef24bb5343d7",
-      "tamanho": 79765160,
+      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.70/CRMINDEX-Setup-1.70.exe",
+      "sha256": "c997b201c9b0ffade753240be3c42dffb929250899239581fe7ad38023ec78b1",
+      "tamanho": 79772311,
       "forcar": false,
-      "publicadoEm": "2026-10-15T16:17:40.983Z"
+      "publicadoEm": "2026-10-15T17:18:18.858Z"
     }
   },
-  "assinatura": "mIRf9lyHcxAS2XGtatMVS5uBSIfEfkwYrHu22N71bYvKMhojzcERAe8JJB1q5G4Cwts+/DqUaDrGeVoZc/H9CQ=="
+  "assinatura": "I6Wmi9HRlCGm+SvjExry0NVeYjcx8uuxL12q/mbL6P7kCq6MoFGpIEjiLG7ERAQ1xs1TadbPyY8/fC9lDdPRCQ=="
 }
