@@ -1,8 +1,10 @@
 {
   "conteudo": {
-    "geradoEm": "2026-10-15T17:18:18.859Z",
+    "geradoEm": "2026-10-15T17:24:58.018Z",
     "contato": "(27) 99501-3060",
-    "ativos": [],
+    "ativos": [
+      "89a7228a25dc40e3aed3cb13668b03921648ee091e5cf1f892dae3392f4de65f"
+    ],
     "versao": {
       "numero": "1.70",
       "titulo": "Permissões por tela de Configurações",
@@ -20,5 +22,5 @@
       "publicadoEm": "2026-10-15T17:18:18.858Z"
     }
   },
-  "assinatura": "I6Wmi9HRlCGm+SvjExry0NVeYjcx8uuxL12q/mbL6P7kCq6MoFGpIEjiLG7ERAQ1xs1TadbPyY8/fC9lDdPRCQ=="
+  "assinatura": "7IxM2jGgwrxZhHVHjTFZQfX/B0lDPwAwz1nrBta7BIRY/iX30o8WsRGR2BU6xhtBCpIhSoq+gxay4Rz9lJssCw=="
 }
