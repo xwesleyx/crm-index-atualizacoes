@@ -1,8 +1,10 @@
 {
   "conteudo": {
-    "geradoEm": "2026-10-15T15:37:07.666Z",
+    "geradoEm": "2026-10-15T15:40:49.851Z",
     "contato": "(27) 99501-3060",
-    "ativos": [],
+    "ativos": [
+      "89a7228a25dc40e3aed3cb13668b03921648ee091e5cf1f892dae3392f4de65f"
+    ],
     "versao": {
       "numero": "1.67",
       "titulo": "Atualizações automáticas e licença por CNPJ",
@@ -55,5 +57,5 @@
       "publicadoEm": "2026-10-15T15:37:07.648Z"
     }
   },
-  "assinatura": "6qXWlMFk0eI6zkKZcR0BPND9ihX7SxqAqvQ/xVaa3x7zMVztVicylnjXuk6En+g6mBYU0lAxlDHXHzN2fmHmAg=="
+  "assinatura": "Cs7pFJ/WFsuCJ2xKr/a+q00rnwh8K5CzJ/7qMOdPf2sON5+9ZzEXIElouOZqBjfccMg89pNjXstFTn6RStwlCw=="
 }
