@@ -1,26 +1,27 @@
 {
   "conteudo": {
-    "geradoEm": "2026-11-19T12:07:01.633Z",
+    "geradoEm": "2026-11-19T16:39:52.965Z",
     "contato": "(27) 99501-3060",
     "ativos": [
       "a91c669367b01b06dd7798b363a70d410ad93fc40df1bfcde8970a94b706e567"
     ],
     "versao": {
-      "numero": "1.70",
-      "titulo": "Permissões por tela de Configurações",
+      "numero": "1.71",
+      "titulo": "Produtos e mensalidade no cliente",
       "novidades": [
-        "Cada tela de Configurações agora é uma permissão própria em Configurações > Usuários > Permissões: Usuários, Permissões, Regiões, Checklist de Instalação, Kanbans, Respostas rápidas, Mensagens automáticas, Integrações, Backup e Limpeza.",
-        "O padrão continua o mesmo (só Administradores), mas agora dá para liberar uma tela específica para qualquer pessoa — por exemplo, deixar um atendente cuidar das Respostas rápidas — ou tirar uma tela de um Administrador.",
-        "O menu e as abas mostram só as telas liberadas para a pessoa; quem não tem nenhuma não vê o menu Configurações.",
-        "Ninguém pode tirar de si mesmo o acesso à tela de Permissões.",
-        "O sistema passou a conferir licença e versões novas a cada 30 minutos (antes, a cada 1 hora)."
+        "Nova tela Catálogo > Produtos: cadastre os produtos que você vende (ex.: Integra Fiscal, Integra Gerencial, Checkout) com um valor padrão.",
+        "Clientes agora têm produtos: escolha o produto, a quantidade (começa em 1) e o valor (pode ficar zerado). Dá para adicionar já no Novo cliente ou depois, no card Produtos do detalhe do cliente.",
+        "\"+ Novo produto\" dentro do cliente cria o produto na hora, sem sair do cadastro.",
+        "Campo Mensalidade no cliente: aparece no detalhe, no Editar e numa coluna nova da listagem de Clientes.",
+        "A lupa de consulta de CNPJ (em todos os formulários e na Prospecção CNPJ) agora tenta uma segunda fonte pública da Receita Federal quando a primeira está fora do ar ou bloqueando consultas — antes aparecia \"Não foi possível consultar a Receita Federal agora\" mesmo com o CNPJ certo.",
+        "Resolve principalmente o CRM instalado em servidor (acessado por área de trabalho remota), onde a fonte principal costuma limitar o número de consultas."
       ],
-      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.70/CRMINDEX-Setup-1.70.exe",
-      "sha256": "c997b201c9b0ffade753240be3c42dffb929250899239581fe7ad38023ec78b1",
-      "tamanho": 79772311,
-      "forcar": false,
-      "publicadoEm": "2026-10-15T17:18:18.858Z"
+      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.71/CRMINDEX-Setup-1.71.exe",
+      "sha256": "6d9c60348907017b3940f8933d47e579ad6f65188373ba2c5c83b31b8f28a9fd",
+      "tamanho": 79762989,
+      "forcar": true,
+      "publicadoEm": "2026-11-19T16:39:52.956Z"
     }
   },
-  "assinatura": "uK0r2WPbIbW/LFyJxfhTGU6T7zY4490fgFpzERyIKTLBZnt5nM0d7sKFygBvhUJoZrgPRxV992diCmVUeZGHDg=="
+  "assinatura": "iC18ZzQvS5VX20GA8COgquhhXIKfUWvyklG+hDoXY+qmm42+2lnqWp21Ta0g2JLgmEM/bNSEPLwufS6SPi9gBw=="
 }
