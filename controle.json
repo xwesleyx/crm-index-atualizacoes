@@ -1,27 +1,30 @@
 {
   "conteudo": {
-    "geradoEm": "2026-11-19T16:39:52.965Z",
+    "geradoEm": "2026-11-19T17:29:06.166Z",
     "contato": "(27) 99501-3060",
     "ativos": [
       "a91c669367b01b06dd7798b363a70d410ad93fc40df1bfcde8970a94b706e567"
     ],
     "versao": {
-      "numero": "1.71",
-      "titulo": "Produtos e mensalidade no cliente",
+      "numero": "1.72",
+      "titulo": "Inteligência: roteiro de visitas e painel de clientes",
       "novidades": [
-        "Nova tela Catálogo > Produtos: cadastre os produtos que você vende (ex.: Integra Fiscal, Integra Gerencial, Checkout) com um valor padrão.",
-        "Clientes agora têm produtos: escolha o produto, a quantidade (começa em 1) e o valor (pode ficar zerado). Dá para adicionar já no Novo cliente ou depois, no card Produtos do detalhe do cliente.",
-        "\"+ Novo produto\" dentro do cliente cria o produto na hora, sem sair do cadastro.",
-        "Campo Mensalidade no cliente: aparece no detalhe, no Editar e numa coluna nova da listagem de Clientes.",
-        "A lupa de consulta de CNPJ (em todos os formulários e na Prospecção CNPJ) agora tenta uma segunda fonte pública da Receita Federal quando a primeira está fora do ar ou bloqueando consultas — antes aparecia \"Não foi possível consultar a Receita Federal agora\" mesmo com o CNPJ certo.",
-        "Resolve principalmente o CRM instalado em servidor (acessado por área de trabalho remota), onde a fonte principal costuma limitar o número de consultas."
+        "Novo menu Inteligência, com duas telas: Painel de clientes e Roteiro de visitas.",
+        "Roteiro de visitas: escolha a região, a cidade, quantos clientes e o período (diário, semanal ou mensal). O sistema sugere quem está há mais tempo sem visita ou sem conversa no WhatsApp (ou quem paga mais), agrupa por cidade e bairro e cria as visitas na Agenda com horário, endereço e telefone.",
+        "Na lista do roteiro, cada cliente mostra a última visita e o último WhatsApp em cores (vermelho = muito tempo), e o botão \"Visitei hoje\" registra uma visita feita sem agendamento.",
+        "Painel de clientes: clientes e mensalidade por região, os 10 que mais pagam, ramos de atividade (CNAE) com a lista de quem é do mesmo ramo, clientes por cidade, porte das empresas e produtos na carteira.",
+        "Agenda: nova categoria Visita. Concluir uma visita na Agenda conta como visita feita.",
+        "Ficha do cliente: mostra a última visita e a próxima marcada.",
+        "Clientes e Empresas: filtro por região (uma ou várias), abaixo dos filtros.",
+        "Clientes agora têm código sequencial (Cliente #1, #2, #3...), mostrado no topo da ficha, numa coluna nova da listagem e aceito na busca (\"12\" ou \"#12\"). Os clientes que já existiam foram numerados pela ordem de cadastro.",
+        "Correção: abrir um cliente mostrava \"Não foi possível carregar esta página\" (erro da versão 1.71)."
       ],
-      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.71/CRMINDEX-Setup-1.71.exe",
-      "sha256": "6d9c60348907017b3940f8933d47e579ad6f65188373ba2c5c83b31b8f28a9fd",
-      "tamanho": 79762989,
+      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.72/CRMINDEX-Setup-1.72.exe",
+      "sha256": "d5e657a0cc8247801b819509971aa9e900cbb9a4a70fb279af12cf031d5c7875",
+      "tamanho": 85444173,
       "forcar": true,
-      "publicadoEm": "2026-11-19T16:39:52.956Z"
+      "publicadoEm": "2026-11-19T17:29:06.103Z"
     }
   },
-  "assinatura": "iC18ZzQvS5VX20GA8COgquhhXIKfUWvyklG+hDoXY+qmm42+2lnqWp21Ta0g2JLgmEM/bNSEPLwufS6SPi9gBw=="
+  "assinatura": "Rl/Us4I1pS9D/K0bANUkXkSRNhM4Zu+uRmnB6qdKc7vkc51qS3kAbqbgOUlLCqpAA3vfKzXKtgHrq1kwc7lEBA=="
 }
