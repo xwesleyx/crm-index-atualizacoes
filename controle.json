@@ -1,30 +1,28 @@
 {
   "conteudo": {
-    "geradoEm": "2026-11-19T21:01:22.463Z",
+    "geradoEm": "2026-11-21T13:53:20.696Z",
     "contato": "(27) 99501-3060",
     "ativos": [
       "a91c669367b01b06dd7798b363a70d410ad93fc40df1bfcde8970a94b706e567"
     ],
     "versao": {
-      "numero": "1.73",
-      "titulo": "Segmentos e dados da Receita nas empresas",
+      "numero": "1.75",
+      "titulo": "Códigos sequenciais em todo o sistema",
       "novidades": [
-        "Novo campo Segmento na empresa, que agrupa o ramo de atividade em algo mais geral: Material de construção, Oficina mecânica e auto center, Supermercados, Restaurantes, Comércio varejista em geral, Indústria, entre outros. No modo \"Automático\" ele sai do CNAE da Receita, e dá para escolher outro no Editar da empresa.",
-        "Painel de clientes: novo gráfico Segmentos. O de Ramos de atividade continua, com o CNAE exato.",
-        "Painel de clientes: botão \"Buscar na Receita\" para preencher de uma vez o CNAE, o segmento e o porte de todos os clientes que ainda não tinham.",
-        "Tela da empresa: botão \"Buscar dados da Receita\" no card Dados da Receita Federal.",
-        "A lupa do CNPJ no cadastro da empresa agora também grava o CNAE, o porte e a situação cadastral ao salvar. Antes ela só preenchia nome e endereço, e esses dados ficavam de fora.",
-        "Correção: o WhatsApp (QR code) ficava preso em \"Conectando...\" e não gerava QR. O WhatsApp passou a recusar a versão antiga do WhatsApp Web usada pelo CRM (erro \"Client outdated (405)\"), e o serviço foi atualizado para a versão nova. Quem já estava pareado continua pareado; se pedir QR, é só escanear de novo.",
-        "Botão \"Ver no mapa\" ao lado do endereço na empresa e no cliente (a ficha do cliente agora mostra o endereço da empresa). Abre o Google Maps no local. No Roteiro de visitas, o ícone de mapa aparece ao lado da cidade de cada cliente.",
-        "Integrações: quando o WhatsApp não consegue conectar, o motivo agora aparece na tela, abaixo de \"Conectando...\".",
-        "Integrações no CRM instalado: o botão \"Parar serviço\" saiu, porque o CRM religava o serviço sozinho e o botão parecia não fazer nada. No lugar dele entrou \"Reiniciar serviço\"."
+        "v1.75: Os códigos de letras e números sem sentido (como EMP-S1ABGW e Venda #K3X9QZ) sumiram. Agora leads, oportunidades, vendas, instalações, contatos, empresas e atendimentos têm um número sequencial, igual ao dos clientes: Empresa #12, Venda #7, Lead #3.",
+        "v1.75: Os registros que já existiam foram numerados pela ordem de cadastro, e cada novo recebe o próximo número automaticamente.",
+        "v1.75: O número aparece no caminho do topo da tela, no título da venda, na lista de vendas e na venda ligada à instalação.",
+        "v1.74: Roteiro de visitas: clientes do mesmo bairro agora ficam no mesmo dia. Antes a agenda trocava de dia só pela quantidade de visitas, e um bairro podia ser dividido entre dois dias. Agora o bairro é tratado como um bloco e só é dividido se tiver mais clientes que o máximo por dia. Cidade diferente começa um dia novo.",
+        "v1.74: Roteiro de visitas: bairro escrito de jeitos diferentes (\"Jd. América\", \"Jardim America\", \"JARDIM AMÉRICA\") passa a contar como o mesmo bairro.",
+        "v1.74: Painel de clientes no celular: os nomes de segmentos, ramos de atividade (CNAE), cidades e clientes não são mais cortados com \"...\". Nome longo agora quebra em mais de uma linha, e a porcentagem e a mensalidade ficam embaixo do número de clientes.",
+        "v1.74: Roteiro de visitas: o nome do cliente e o bairro/cidade também aparecem inteiros, sem corte."
       ],
-      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.73/CRMINDEX-Setup-1.73.exe",
-      "sha256": "304d643c0e87f6c69fd1e9603e688569dc68e537500f5fb0fca02a7f57e0d070",
-      "tamanho": 88520543,
+      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.75/CRMINDEX-Setup-1.75.exe",
+      "sha256": "d7b5ea668fe09c7c9891691ca35fed3a3d589aa8a8260a7f2d4e65ba884a4cad",
+      "tamanho": 88526745,
       "forcar": true,
-      "publicadoEm": "2026-11-19T21:01:22.462Z"
+      "publicadoEm": "2026-11-21T13:53:20.686Z"
     }
   },
-  "assinatura": "D8bLUox5fBOT2zma2wt5p6ZWFSPeprQZuje4cQ7CSiEKkKUgHHlkU/2Ga5PCUBNR/JVE6K7KH7F77hbO33lMDg=="
+  "assinatura": "kk3ZNTnm16XoFnpb10qOm1xVJParEDaOJDpCfjf8RhdlBzhtSwy4s/lC/r2xh4HPTIdToEpRU8N0Rjkgaa1fAg=="
 }
