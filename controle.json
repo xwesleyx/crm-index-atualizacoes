@@ -1,29 +1,27 @@
 {
   "conteudo": {
-    "geradoEm": "2026-11-23T18:56:10.177Z",
+    "geradoEm": "2026-11-24T11:39:11.668Z",
     "contato": "(27) 99501-3060",
     "ativos": [
       "a91c669367b01b06dd7798b363a70d410ad93fc40df1bfcde8970a94b706e567",
       "5a74f4939425aafa60862f8eb44f52d27899f6aaf7a1d9d4284feeb1837983c1"
     ],
     "versao": {
-      "numero": "1.75",
-      "titulo": "Códigos sequenciais em todo o sistema",
+      "numero": "1.76",
+      "titulo": "Tela inicial por perfil, atendimento duplicado e aviso de notificação",
       "novidades": [
-        "v1.75: Os códigos de letras e números sem sentido (como EMP-S1ABGW e Venda #K3X9QZ) sumiram. Agora leads, oportunidades, vendas, instalações, contatos, empresas e atendimentos têm um número sequencial, igual ao dos clientes: Empresa #12, Venda #7, Lead #3.",
-        "v1.75: Os registros que já existiam foram numerados pela ordem de cadastro, e cada novo recebe o próximo número automaticamente.",
-        "v1.75: O número aparece no caminho do topo da tela, no título da venda, na lista de vendas e na venda ligada à instalação.",
-        "v1.74: Roteiro de visitas: clientes do mesmo bairro agora ficam no mesmo dia. Antes a agenda trocava de dia só pela quantidade de visitas, e um bairro podia ser dividido entre dois dias. Agora o bairro é tratado como um bloco e só é dividido se tiver mais clientes que o máximo por dia. Cidade diferente começa um dia novo.",
-        "v1.74: Roteiro de visitas: bairro escrito de jeitos diferentes (\"Jd. América\", \"Jardim America\", \"JARDIM AMÉRICA\") passa a contar como o mesmo bairro.",
-        "v1.74: Painel de clientes no celular: os nomes de segmentos, ramos de atividade (CNAE), cidades e clientes não são mais cortados com \"...\". Nome longo agora quebra em mais de uma linha, e a porcentagem e a mensalidade ficam embaixo do número de clientes.",
-        "v1.74: Roteiro de visitas: o nome do cliente e o bairro/cidade também aparecem inteiros, sem corte."
+        "Cada perfil abre na sua tela depois do login: Administrador, Gerente e Vendedor no Dashboard; Atendimento direto nas Conversas do Atendimento; os demais (Instalador, Financeiro) na primeira tela liberada do menu.",
+        "WhatsApp: um número não salvo que mandava várias mensagens seguidas podia abrir um atendimento novo a cada mensagem, mesmo já sendo atendido. Agora as mensagens do mesmo número são processadas uma de cada vez e continuam no atendimento em andamento.",
+        "WhatsApp: o serviço passa a lembrar o número de telefone de quem chega pelo identificador interno do WhatsApp (LID), evitando que a mesma pessoa vire dois contatos.",
+        "Notificação nova agora aparece num aviso no canto inferior direito da tela, com o botão \"Abrir\". Antes o aviso podia nunca aparecer quando o relógio do computador estava adiantado em relação ao servidor.",
+        "Segurança: o registro de mensagens recebidas do WhatsApp só pode ser feito pelo próprio serviço do WhatsApp (com a senha do serviço). Antes dava para registrar mensagens falsas no Atendimento sem estar logado."
       ],
-      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.75/CRMINDEX-Setup-1.75.exe",
-      "sha256": "d7b5ea668fe09c7c9891691ca35fed3a3d589aa8a8260a7f2d4e65ba884a4cad",
-      "tamanho": 88526745,
-      "forcar": true,
-      "publicadoEm": "2026-11-21T13:53:20.686Z"
+      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.76/CRMINDEX-Setup-1.76.exe",
+      "sha256": "e13ee68a5b201ce4ba90058052581f61f3f46d9b5d1991a5e953ae5a48c053c4",
+      "tamanho": 88553344,
+      "forcar": false,
+      "publicadoEm": "2026-11-24T11:39:11.666Z"
     }
   },
-  "assinatura": "KznRge0ZUiD8ssqA/emsZIV5HdIcRv2CdfucsQvGkYMMYfg8CTax/Z8iESRih9pFFkGRieS9nDPRDEr5PhX/BA=="
+  "assinatura": "qbhs5HAkWkXgWxozvmP07uiE3YrL9tTSBjwgr1D+sOln2GY3Q/ZHR07TQn6rTtj2NG5ugZpptu4uW6FDOgkGDw=="
 }
