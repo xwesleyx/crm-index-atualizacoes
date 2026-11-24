@@ -1,10 +1,11 @@
 {
   "conteudo": {
-    "geradoEm": "2026-11-24T12:00:42.009Z",
+    "geradoEm": "2026-11-24T20:16:10.278Z",
     "contato": "(27) 99501-3060",
     "ativos": [
       "a91c669367b01b06dd7798b363a70d410ad93fc40df1bfcde8970a94b706e567",
-      "5a74f4939425aafa60862f8eb44f52d27899f6aaf7a1d9d4284feeb1837983c1"
+      "5a74f4939425aafa60862f8eb44f52d27899f6aaf7a1d9d4284feeb1837983c1",
+      "59940f346ceac0055daa2c8a5f575196828003e85e0a5cba8901b13d3d21dcae"
     ],
     "versao": {
       "numero": "1.76",
@@ -23,5 +24,5 @@
       "publicadoEm": "2026-11-24T11:39:11.666Z"
     }
   },
-  "assinatura": "D/nSknWBzm0DQfgKbIMeVL3+i/ORBYo/2RtzQjSoV+SQd7YCuAhqjMxq/FBQd3yJj+/HNENzLVdjVpO1gCwzAw=="
+  "assinatura": "limZF/6925DGxYY13tbrqY7xt3GfAHdrAtPOfmnP0B3lucdLOuA1yL9/R5rJimSYI7GmRsUoDwaNr0l5tq7bAA=="
 }
