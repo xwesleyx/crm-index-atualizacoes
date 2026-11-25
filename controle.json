@@ -1,6 +1,6 @@
 {
   "conteudo": {
-    "geradoEm": "2026-11-24T20:16:10.278Z",
+    "geradoEm": "2026-11-25T15:55:18.935Z",
     "contato": "(27) 99501-3060",
     "ativos": [
       "a91c669367b01b06dd7798b363a70d410ad93fc40df1bfcde8970a94b706e567",
@@ -8,21 +8,21 @@
       "59940f346ceac0055daa2c8a5f575196828003e85e0a5cba8901b13d3d21dcae"
     ],
     "versao": {
-      "numero": "1.76",
-      "titulo": "Tela inicial por perfil, atendimento duplicado e aviso de notificação",
+      "numero": "1.77",
+      "titulo": "Tour guiado pelo sistema",
       "novidades": [
-        "Cada perfil abre na sua tela depois do login: Administrador, Gerente e Vendedor no Dashboard; Atendimento direto nas Conversas do Atendimento; os demais (Instalador, Financeiro) na primeira tela liberada do menu.",
-        "WhatsApp: um número não salvo que mandava várias mensagens seguidas podia abrir um atendimento novo a cada mensagem, mesmo já sendo atendido. Agora as mensagens do mesmo número são processadas uma de cada vez e continuam no atendimento em andamento.",
-        "WhatsApp: o serviço passa a lembrar o número de telefone de quem chega pelo identificador interno do WhatsApp (LID), evitando que a mesma pessoa vire dois contatos.",
-        "Notificação nova agora aparece num aviso no canto inferior direito da tela, com o botão \"Abrir\". Antes o aviso podia nunca aparecer quando o relógio do computador estava adiantado em relação ao servidor.",
-        "Segurança: o registro de mensagens recebidas do WhatsApp só pode ser feito pelo próprio serviço do WhatsApp (com a senha do serviço). Antes dava para registrar mensagens falsas no Atendimento sem estar logado."
+        "Tour de boas-vindas: no primeiro acesso, um passeio rápido pelo menu, mostrando só as telas que o seu perfil pode usar. Quem já usava o sistema também vê uma vez.",
+        "Dicas por tela: ao abrir uma tela pela primeira vez (Leads, Kanban, Atendimento, Agenda, Roteiro de visitas e outras), aparece um tour curto com o que dá para fazer nela. Botões e ações que você não tem permissão para usar ficam de fora.",
+        "Novidades da versão: depois de uma atualização, um tour mostra o que mudou, só com o que vale para o seu perfil e as suas permissões.",
+        "O ícone de Ajuda (?) no topo virou um menu: Tour desta tela, Novidades da versão, Tour de boas-vindas, Mostrar as dicas de novo e Central de Ajuda.",
+        "Durante o tour: Próximo/Voltar (ou as setas do teclado), Pular tour (ou Esc)."
       ],
-      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.76/CRMINDEX-Setup-1.76.exe",
-      "sha256": "e13ee68a5b201ce4ba90058052581f61f3f46d9b5d1991a5e953ae5a48c053c4",
-      "tamanho": 88553344,
-      "forcar": true,
-      "publicadoEm": "2026-11-24T11:39:11.666Z"
+      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.77/CRMINDEX-Setup-1.77.exe",
+      "sha256": "d33c5caea4360b6f5420efb11ebd0907191e7681b26dcfc6d7eb20c3ec836f12",
+      "tamanho": 88587287,
+      "forcar": false,
+      "publicadoEm": "2026-11-25T15:52:40.537Z"
     }
   },
-  "assinatura": "limZF/6925DGxYY13tbrqY7xt3GfAHdrAtPOfmnP0B3lucdLOuA1yL9/R5rJimSYI7GmRsUoDwaNr0l5tq7bAA=="
+  "assinatura": "nvzMvgh7ajHErXlbwoiLT2gmj2GD3XkgXtCb6hebIciMd7pid8MYjGB7J/baXFdg0ljTOn8uGUCIJiREk20mDQ=="
 }
