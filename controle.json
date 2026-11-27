@@ -1,6 +1,6 @@
 {
   "conteudo": {
-    "geradoEm": "2026-11-25T15:55:18.935Z",
+    "geradoEm": "2026-11-27T19:43:01.675Z",
     "contato": "(27) 99501-3060",
     "ativos": [
       "a91c669367b01b06dd7798b363a70d410ad93fc40df1bfcde8970a94b706e567",
@@ -8,21 +8,18 @@
       "59940f346ceac0055daa2c8a5f575196828003e85e0a5cba8901b13d3d21dcae"
     ],
     "versao": {
-      "numero": "1.77",
-      "titulo": "Tour guiado pelo sistema",
+      "numero": "1.78",
+      "titulo": "Consulta de CNPJ de empresa recém-aberta",
       "novidades": [
-        "Tour de boas-vindas: no primeiro acesso, um passeio rápido pelo menu, mostrando só as telas que o seu perfil pode usar. Quem já usava o sistema também vê uma vez.",
-        "Dicas por tela: ao abrir uma tela pela primeira vez (Leads, Kanban, Atendimento, Agenda, Roteiro de visitas e outras), aparece um tour curto com o que dá para fazer nela. Botões e ações que você não tem permissão para usar ficam de fora.",
-        "Novidades da versão: depois de uma atualização, um tour mostra o que mudou, só com o que vale para o seu perfil e as suas permissões.",
-        "O ícone de Ajuda (?) no topo virou um menu: Tour desta tela, Novidades da versão, Tour de boas-vindas, Mostrar as dicas de novo e Central de Ajuda.",
-        "Durante o tour: Próximo/Voltar (ou as setas do teclado), Pular tour (ou Esc)."
+        "Lupa do CNPJ e \"Buscar dados da Receita\": empresas abertas há poucos dias, que antes davam \"CNPJ não encontrado\", agora são encontradas. Quando as bases usadas até aqui (atualizadas pela Receita só uma vez por mês) não têm o CNPJ, o sistema consulta uma terceira base, atualizada em poucos dias.",
+        "Se mesmo assim o CNPJ não for encontrado, a mensagem explica que empresas muito novas podem ainda não ter sido divulgadas pela Receita e sugere preencher manualmente."
       ],
-      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.77/CRMINDEX-Setup-1.77.exe",
-      "sha256": "d33c5caea4360b6f5420efb11ebd0907191e7681b26dcfc6d7eb20c3ec836f12",
-      "tamanho": 88587287,
+      "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.78/CRMINDEX-Setup-1.78.exe",
+      "sha256": "738fd0a7ea0531846d5198a16685116df2f58c9f6074020fcfbf4f67429257f8",
+      "tamanho": 88580798,
       "forcar": false,
-      "publicadoEm": "2026-11-25T15:52:40.537Z"
+      "publicadoEm": "2026-11-27T19:43:01.665Z"
     }
   },
-  "assinatura": "nvzMvgh7ajHErXlbwoiLT2gmj2GD3XkgXtCb6hebIciMd7pid8MYjGB7J/baXFdg0ljTOn8uGUCIJiREk20mDQ=="
+  "assinatura": "mC6a9neeLUlV5wPwWb+zLJ6Pzv608Ybsm2O7dyly9TuutZ6vEmDt0SSfi9dwkKNXw3ccBREYuuwwTyJ8JF9yAA=="
 }
