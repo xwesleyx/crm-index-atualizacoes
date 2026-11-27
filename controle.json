@@ -1,6 +1,6 @@
 {
   "conteudo": {
-    "geradoEm": "2026-11-27T19:43:01.675Z",
+    "geradoEm": "2026-11-27T19:47:16.385Z",
     "contato": "(27) 99501-3060",
     "ativos": [
       "a91c669367b01b06dd7798b363a70d410ad93fc40df1bfcde8970a94b706e567",
@@ -17,9 +17,9 @@
       "instalador": "https://github.com/xwesleyx/crm-index-atualizacoes/releases/download/v1.78/CRMINDEX-Setup-1.78.exe",
       "sha256": "738fd0a7ea0531846d5198a16685116df2f58c9f6074020fcfbf4f67429257f8",
       "tamanho": 88580798,
-      "forcar": false,
+      "forcar": true,
       "publicadoEm": "2026-11-27T19:43:01.665Z"
     }
   },
-  "assinatura": "mC6a9neeLUlV5wPwWb+zLJ6Pzv608Ybsm2O7dyly9TuutZ6vEmDt0SSfi9dwkKNXw3ccBREYuuwwTyJ8JF9yAA=="
+  "assinatura": "5IvTK05FObxqWyNL/JPgbrBSU5Pkhs8BafpRoaO+JsgcfUn1zFAAoMod6ISsveGEfiXv2WuqjVgGE0Ydh32JCA=="
 }
